@@ -11,14 +11,9 @@ html {
 .nav {
   display: flex;
   justify-content: space-between;
-  /* justify-content: pozycjonuje elementy na osi X, moze przyjac rozne wartosci: space-between, space-around, space-evenly, center */
-  align-items: center;
-  /*  align-items: pozycjonuje elementy na osi Y, moze przyjac rozne wartosci: space-between, space-around, space-evenly, center 
-    nalezy pamiętać, że aby pozycjonować elementy na osi Y, container musi mieć wysokosć większą od wysokości nadanej przez 
-    wysokosc elementów które przechowuje */
-  height: 80px;
-  width: 960px;
-  margin: 0 auto;
+  height: 8px;
+  width: 8px;
+  margin: 0;
 }
 
 .nav a {
